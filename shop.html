@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shopstyle.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- or -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+</head>
+
+<body>
+    <ul class="nav">
+        <div class="logo">TRENDIFY</div>
+        <li><a href="trendify.html#">HOME</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+
+    </ul>
+
+
+    <div id="pro1">
+        <ul class="navbar">
+            <li><a href="#"class="anc1" data-filter="*">ALL PRODUCTS</a></li>
+            <li><a href="#"class="anc1" data-filter=".women">WOMEN</a></li> 
+            <li><a href="#"class="anc1" data-filter=".men">MEN</a></li>
+            <li><a href="#"class="anc1" data-filter=".bag">BAG</a></li>
+            <li><a href="#"class="anc1" data-filter=".shoes">SHOES</a></li>
+            <li><a href="#"class="anc1" data-filter=".glasses">GLASSES</a></li>
+        </ul>
+    </div>
+
+    <div id="second3">
+        <div> <img class="contain women" src="jogger.jpg" alt="image not shown"></div>
+        <div> <img class="contain women" src="girl.jpg" alt="image not shown"></div>
+        <div> <img class="contain glasses" src="glasses.jpg" alt="image not shown"></div>
+        <div> <img class="contain shoes" src="san2.jpg" alt="image not shown"></div>
+        <div> <img class="contain women" src="female1.jpg" alt="image not shown"></div>
+        <div> <img class="contain men" src="black.jpg" alt="image not shown"></div>
+        <div> <img class="contain women" src="female2.jpg" alt="image not shown"></div>
+        <div> <img class="contain bag" src="sling.jpg" alt="image not shown"></div>
+        <div> <img class="contain shoes" src="shoe3.jpg" alt="image not shown"></div>
+        <div> <img class="contain men" src="coat.jpg" alt="image not shown"></div>
+        <div> <img class="contain shoes" src="shoe4.jpg" alt="image not shown"></div>
+        <div> <img class="contain bag" src="accbag.jpg" alt="image not shown"></div>
+    </div>
+
+    <button class="load"><a href="trendify.html" id="load">LOAD MORE.....</a></button>
+    <footer>
+        <div class="coteg">
+            <div class="item">
+                <h4>CATEGORIES</h4>
+            </div>
+            <p><a href="trendify.html" class="white">WOMEN</a></p>
+            <p><a href="trendify.html" class="white">MEN</a></p>
+            <p><a href="trendify.html" class="white">SHOES</a></p>
+            <p><a href="trendify.html" class="white">BAGS</a></p>
+        </div>
+
+        <div class="help">
+            <div class="item1">
+                <h4>HELP</h4>
+            </div>
+            <p><a href="trendify.html" class="white">Track Order</a></p>
+            <p><a href="trendify.html" class="white">Returns</a></p>
+            <p><a href="trendify.html" class="white">Shipping</a></p>
+            <p><a href="trendify.html" class="white">FAQs</a></p>
+        </div>
+
+        <div class="touch">
+            <div class="item2">
+                <h4>GET IN TOUCH</h4>
+            </div>
+            <p>Any questions? Let us know in store at 8th<br>floor,379 Hudson st,Newyork,NY 10018 or <br> call us
+                on(+1)96 716 6879</p>
+
+        </div>
+
+        <div class="news">
+            <div class="item3">
+                <h4>NEWS LETTER</h4>
+            </div>
+            <p>trendify@gmail.com</p>
+            <button
+                style="background-color: rgb(8, 101, 250); padding: 1rem 3rem; color: white; border-radius: 20px; border: none;"><a
+                    href="trendify.html" class="white">SUBSCRIBE</a></button>
+
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            var $btns = $('.navbar');
+            var $contain = $('#second3');
+            $btns.each(function () {
+                $btns.on('click', 'a', function () {
+                    var filterval = $('this').attr('data-filter');
+                    $contain.isotope({filter: filterval });
+                })
+            
+
+        })
+
+        
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
