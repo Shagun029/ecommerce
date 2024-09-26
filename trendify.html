@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="trendifystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
@@ -20,12 +21,20 @@
 
     <ul class="nav">
         <div class="logo">TRENDIFY</div>
-        <li><a href="#">HOME</a></li>
+        <li><a href="trendify.html">HOME</a></li>
         <li><a href="shop.html">SHOP</a></li>
         <li><a href="">FEATURES</a></li>
-        <li><a href="#">BLOG</a></li>
+        <li><a href="blog.html">BLOG</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <div class="iconbox">
+            <i class="fa fa-search" id="icon"></i>
+            <i class=" fa fa-shopping-cart"></i>
+            <i class=" fa fa-heart" id="heart"></i>
+            <i class="fa fa-user"></i>
+            <p style="margin-left:-30px;"> ROHIT </p>
+
+        </div>
 
     </ul>
 
@@ -41,21 +50,31 @@
 
     <div id="second">
 
-        <div>
+        <div class="card">
             <h2>WOMEN</h2>
-            <P>Spring 2018</P> <img class="sec" src="banner-04.jpg" alt="image not shown">
-
+            <P>Spring 2018</P> <img src="images/banner-04.jpg" alt="image not shown" class="sec">
+            <a href="shop.html" class="user">Shop now</a>
         </div>
 
-        <div>
+
+
+        <div class="card">
             <h2>MEN</h2>
-            <p>Spring 2018</p> <img class="sec" src="banner-05.jpg" alt="image not shown">
+            <p>Spring 2018</p> <img src="images/banner-05.jpg" alt="image not shown" class="sec">
+            <a href="shop.html" class="user">Shop now</a>
+
         </div>
-        <div>
+
+        <div class="card">
             <h2>ACCESSORIES</h2>
-            <p>New Trend</p><img class="sec" src="banner-03.jpg">
+            <p>New Trend</p><img src="images/banner-08.jpg" alt="image not shown" class="sec">
+            <a href="shop.html" class="user">Shop now</a>
+
         </div>
     </div>
+
+
+
 
     <div id="pro">
         <h1>PRODUCT OVERVIEW</h1>
@@ -66,7 +85,7 @@
             <li><a href="#" class="anc">BELT</a></li>
             <li><a href="#" class="anc">SHOES</a></li>
             <li><a href="#" class="anc">WATCHES</a></li>
-
+            
         </ul>
     </div>
     <!-- <div id="nav3"> -->
@@ -80,9 +99,25 @@
     <!-- </div> -->
 
     <div id="second2">
-        <div> <img class="sec2" src="fejac2.jpg" alt="image not shown"></div>
-        <div> <img class="sec2" src="male jac1.jpg" alt="image not shown"></div>
-        <div> <img class="sec2" src="shoe1.jpg" alt="image not shown"></div>
+        <div class="index">
+            <div><img class="sec2" src="images/fejac2.jpg" alt="image not shown"></div>
+            <a href="product.html?name=The Life Co. Trucker denim blend comfy Jacket&&img=images/fejac2.jpg&&price=$23.87&&brand=ROADSTER">The
+                Life Co. Trucker denim blend comfy Jacket</a>
+            <p><b style="color: black;">$ 23.87</b></p>
+
+        </div>
+        <div class="index">
+            <div><img class="sec2" src="images/male jac1.jpg" alt="image not shown"></div>
+            <a href=""> Vintage Cruiser Stylish men's black leather Jacket</a>
+            <p><b style="color: black;">$ 32.87</b></p>
+
+        </div>
+        <div class="index">
+            <div><img class="sec2" src="images/shoe1.jpg" alt="image not shown"></div>
+            <a href="">Court Vision trendy Sneakers</a>
+            <p><b style="color: black;">$ 45.87</b></p>
+
+        </div>
     </div>
 
     <button class="load"><a href="trendify.html" id="load">LOAD MORE.....</a></button>
@@ -143,7 +178,24 @@
                 right: '550px',
 
             }, 4000)
+
+            // function getData(data) {
+            //     const urldata = new URLSearchParams(window.location.search);
+            //     return urldata.get(data);
+            // }
+            // const name = getData('name');
+            // const img = getData('img');
+            // const price =getData('price');
+            // const brand=getData('brand')
+
+            // $('#name-display').html(name);
+            // //  $('img').attr('src', `${img}`);
+            //  $('.brand-display').html(brand);
+            //  $('.price').html(price);
+
+
         })
+
     </script>
 
 

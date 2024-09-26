@@ -14,6 +14,8 @@
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <!-- or -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
 
 </head>
 
@@ -23,37 +25,94 @@
         <li><a href="trendify.html#">HOME</a></li>
         <li><a href="shop.html">SHOP</a></li>
         <li><a href="#">FEATURES</a></li>
-        <li><a href="#">BLOG</a></li>
+        <li><a href="blog.html">BLOG</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <div class="iconbox">
+            <i class="fa fa-search" id="icon"></i>
+            <i class=" fa fa-shopping-cart"></i>
+            <i class=" fa fa-heart" id="heart"></i>
+            <i class="fa fa-user"></i><p style="margin-left: -30px;"> ROHIT </p>
+        </div>
+    
+
 
     </ul>
 
-
     <div id="pro1">
         <ul class="navbar">
-            <li><a href="#"class="anc1" data-filter="*">ALL PRODUCTS</a></li>
-            <li><a href="#"class="anc1" data-filter=".women">WOMEN</a></li> 
-            <li><a href="#"class="anc1" data-filter=".men">MEN</a></li>
-            <li><a href="#"class="anc1" data-filter=".bag">BAG</a></li>
-            <li><a href="#"class="anc1" data-filter=".shoes">SHOES</a></li>
-            <li><a href="#"class="anc1" data-filter=".glasses">GLASSES</a></li>
+            <li><a href="#" class="active" data-filter="*">All Products</a></li>
+            <li><a href="#" data-filter=".women">Women</a></li>
+            <li><a href="#" data-filter=".men">Men</a></li>
+            <li><a href="#" data-filter=".bag">Bag</a></li>
+            <li><a href="#" data-filter=".shoes">Shoes</a></li>
+            <li><a href="#" data-filter=".glasses">Glasses</a></li>
+
         </ul>
     </div>
 
-    <div id="second3">
-        <div> <img class="contain women" src="jogger.jpg" alt="image not shown"></div>
-        <div> <img class="contain women" src="girl.jpg" alt="image not shown"></div>
-        <div> <img class="contain glasses" src="glasses.jpg" alt="image not shown"></div>
-        <div> <img class="contain shoes" src="san2.jpg" alt="image not shown"></div>
-        <div> <img class="contain women" src="female1.jpg" alt="image not shown"></div>
-        <div> <img class="contain men" src="black.jpg" alt="image not shown"></div>
-        <div> <img class="contain women" src="female2.jpg" alt="image not shown"></div>
-        <div> <img class="contain bag" src="sling.jpg" alt="image not shown"></div>
-        <div> <img class="contain shoes" src="shoe3.jpg" alt="image not shown"></div>
-        <div> <img class="contain men" src="coat.jpg" alt="image not shown"></div>
-        <div> <img class="contain shoes" src="shoe4.jpg" alt="image not shown"></div>
-        <div> <img class="contain bag" src="accbag.jpg" alt="image not shown"></div>
+    <div class="portfolio-item">
+        <div class="contain women"> <img src="images/jogger.jpg" alt="image not shown" height="400px" width="400px">
+            <div>
+                <p>Espritto Slim Fit Cargo Jogger</p>
+                <p><b>$ 38.50</b></p>
+            </div>
+
+        </div>
+        <div class="contain women"> <img src="images/girl.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Oversized Crepe Casual Shirt</p>
+            <p><b>$ 25.66</b></p>
+
+        </div>
+        <div class="contain glasses"> <img src="images/glasses.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Gold-Toned Round Sunglasses with UV Protected Lens</p>
+
+            <p><b>$ 19.54</b></p>
+
+        </div>
+        <div class="contain shoes"> <img src="images/san2.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Court Vision Low Sneakers</p>
+
+            <p><b>$ 37.76</b></p>
+
+        </div>
+        <div class="contain women"> <img src="images/female1.jpg" alt="image not shown" height="400px" width="400px">
+            <p>The Life Co. Pure Cotton Denim Trucker Jacket</p>
+            <p><b>$ 23.87</b></p>
+
+        </div>
+        <div class="contain men"> <img src="images/black.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Roadster black hooded comfy T-shirt</p>
+            <p><b>$ 15.77</b></p>
+
+        </div>
+        <div class="contain women"> <img src="images/female2.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Expresso denim shirt casual wear</p>
+            <p><b>$ 21.89</b></p>
+
+        </div>
+        <div class="contain bag"> <img src="images/sling.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Quilted Structured Sling Bag</p>
+            <p><b>$ 19.88</b></p>
+        </div>
+        <div class="contain shoes"> <img src="images/shoe3.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Solid red stylish Sneakers</p>
+            <p><b>$ 55.87</b></p>
+
+        </div>
+        <div class="contain men"> <img src="images/product-11.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Formal wear shirt for men</p>
+            <p><b>$ 26.23</b></p>
+        </div>
+        <div class="contain shoes"> <img src="images/shoe4.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Stylish white shoes</p>
+            <p><b>$ 43.97</b></p>
+
+        </div>
+        <div class="contain bag"> <img src="images/accbag.jpg" alt="image not shown" height="400px" width="400px">
+            <p>Multispace brown trek bag</p>
+            <p><b>$ 18.98</b></p>
+        </div>
     </div>
 
     <button class="load"><a href="trendify.html" id="load">LOAD MORE.....</a></button>
@@ -100,20 +159,20 @@
     </footer>
 
     <script>
+
         $(document).ready(function () {
-            var $btns = $('.navbar');
-            var $contain = $('#second3');
+            let $btns = $('#pro1');
+            let $contain = $('.portfolio-item');
+
             $btns.each(function () {
                 $btns.on('click', 'a', function () {
-                    var filterval = $('this').attr('data-filter');
-                    $contain.isotope({filter: filterval });
+                    let filterval = $(this).attr('data-filter');
+                    $contain.isotope({ filter: filterval });
                 })
-            
 
-        })
 
-        
-        })
+            })
+        });
 
     </script>
 

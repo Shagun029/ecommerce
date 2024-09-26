@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="productstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <ul class="nav">
+        <div class="logo">TRENDIFY</div>
+        <li><a href="trendify.html">HOME</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="">FEATURES</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <div class="iconbox">
+            <i class="fa fa-search" id="icon"></i>
+            <i class=" fa fa-shopping-cart"></i>
+            <i class=" fa fa-heart" id="heart"></i>
+            <i class="fa fa-user"></i>
+            <p style="margin-left: -30px;"> ROHIT </p>
+
+        </div>
+
+    </ul>
+
+    <div class="grandfather">
+        <div class="father"><img src="images/fejac2.jpg"></div>
+
+        <div class="mother">
+            <h1 id="brand-display">ROADSTER</h1><br>
+            <h3 style="color:grey" id="name-display">The Life Co. Trucker denim blend comfy Jacket</h3>
+            <br>
+            <h2 class="price">$ 23.87 </h2>
+            <h4 style="color: rgb(29, 211, 29);">Inclusive of all taxes</h4><br>
+            <button class="add"><a href="">Add to Cart</a></button> <button class="buy"><a href="">Buy Now</a></button><br><br>
+            <hr style="width: 590px ">
+
+            
+
+            <div class="son">
+            <h2 style="text-align: center;">PRODUCT DETAILS</h2><br>
+            <h3>PRODUCT DESCRIPTION</h3>
+            <P>Black solid padded jacket with zip detail, has a mock collar, 2 pockets ,has a zip closure,<br> long sleeves, straight hemline, polyester lining.
+            </P>
+           <h3 style="text-transform: uppercase;">Size & Fit</h3>
+           <p>The model (height 5'8) is wearing a size S</p>
+           <h3 style="text-transform: uppercase;">Material & Care</h3>
+           <p>
+            Polyester<br>
+            Machine Wash</p>
+
+
+        </div>
+
+        </div>
+    </div>
+
+    <!-- 
+    <p id="name-display">The Life Co. Trucker denim blend comfy Jacket</p>
+    <div style="height: 400px; width: 350px;"><img src="" height="100%" width="100%"></div> -->
+
+    <script>
+
+        $(document).ready(function () {
+
+            function getData(data) {
+                const urldata = new URLSearchParams(window.location.search);
+                return urldata.get(data);
+            }
+            const brand = getData('brand');
+            const name = getData('name');
+            const img = getData('img');
+            const price = getData('price');
+
+            $('#brand-display').html(brand);
+            $('#name-display').html(name);
+            $('img').attr('src', `${img}`);
+            $('.price').html(price);
+
+
+        })
+
+    </script>
+
+
+
+
+</body>
+
+</html>

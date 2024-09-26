@@ -8,15 +8,22 @@
     height: 90px;
     width: 100%;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 300;
 }
+.iconbox{
+    display: flex;
+    gap: 40px;
+    margin-left: 200px;
+}
+
 a{
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 li:hover{
     color: rgb(8, 101, 250);
@@ -26,7 +33,7 @@ li:hover{
 .logo{
     color:rgb(112, 2, 21);
     font-size: 35px;
-    padding-left: 100px;
+    padding-left: 70px;
     padding-right: 80px;
     font-weight: bold;
 }
@@ -45,17 +52,12 @@ li:hover{
 
 
 }
-.anc1{
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-}
 li:hover{
     color: rgb(8, 101, 250);
     text-decoration: 4px underline;
     
 }
-#second3{
+.portfolio-item{
     display: flex;
     color: black;
     justify-content:space-around;
@@ -65,17 +67,20 @@ li:hover{
     /* padding: 40px; */
     /* margin-right: 250px; */
     flex-wrap: wrap;
-    column-gap: 5px;
-    row-gap: 100px;
+    gap: 10px;
     left: 30px;
+    /* margin-left: 150px; */
+
 }
-.women{
+
+.portfolio-item .contain{
+    margin: 25px;
+}
+
+/* .women{
     height: 400px;
     width: 300px; 
-    box-shadow: 4px 4px 4px  grey; 
-
-    
-
+    box-shadow: 4px 4px 4px  grey;
 }
 .men{
     height: 400px;
@@ -100,7 +105,7 @@ li:hover{
     width: 300px; 
     box-shadow: 4px 4px 4px  grey; 
 
-}
+} */
 /* .sec3{
     height: 400px;
     width: 300px; 
@@ -193,6 +198,13 @@ li:hover{
     gap: 15px;
 
  }
+ .contain:hover{
+    box-shadow: 4px 4px 4px  rgb(160, 159, 159);
+ }
+ #heart:hover{
+    color: red;
+
+}
 
 
 

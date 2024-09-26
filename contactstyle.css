@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+/* body{
+    background-image: url(bg-01.jpg);
+    background-repeat: no-repeat;
+} */
+.image {
+    position: relative;
+    z-index: -1;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 300;
+}
+.iconbox{
+    display: flex;
+    gap: 40px;
+    margin-left: 200px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li:hover {
+    color: rgb(8, 101, 250);
+    text-decoration: 4px underline;
+
+}
+
+.logo {
+    color: rgb(112, 2, 21);
+    font-size: 35px;
+    padding-left: 100px;
+    padding-right: 80px;
+    font-weight: bold;
+}
+
+.abo {
+    color: white;
+    text-align: center;
+    margin-top: -130px;
+    font-size: 50px;
+}
+.git{
+    
+    display: flex;
+    gap: 50px;
+    margin-top: 200px;
+    flex-direction: column;
+    margin-left: 250px;
+}
+.git p{
+    color: rgb(78, 77, 77);
+    font-size: 18px;
+
+}
+.main{
+    display: flex;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    margin-top: 90px;
+}
+#heart:hover{
+    color: red;
+
+}

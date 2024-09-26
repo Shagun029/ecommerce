@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image {
+    position: relative;
+    z-index: -1;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    gap: 40px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 300;
+}
+.iconbox{
+    display: flex;
+    gap: 40px;
+    margin-left: 200px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li:hover {
+    color: rgb(8, 101, 250);
+    text-decoration: 4px underline;
+
+}
+
+.logo {
+    color: rgb(112, 2, 21);
+    font-size: 35px;
+    padding-left: 100px;
+    padding-right: 80px;
+    font-weight: bold;
+}
+
+.abo {
+    color: white;
+    text-align: center;
+    margin-top: -130px;
+    font-size: 50px;
+}
+
+.pic {
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.whitebox {
+    background-color: white;
+    position: absolute;
+    height: 70px;
+    width: 90px;
+    top: 350px;
+    text-align: center;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.content {
+    margin-left: 110px;
+}
+
+.picture {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.whitebox1 {
+    background-color: white;
+    position: absolute;
+    height: 70px;
+    width: 90px;
+    top: 980px;
+    text-align: center;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.matter {
+    margin-left: 110px;
+}
+
+.cate {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    line-height: 40px;
+
+
+
+
+}
+
+.cate a {
+    color: gray;
+}
+
+
+
+.pic img {
+    height: 450px;
+    width: 700px;
+    object-fit: cover;
+}
+
+.pic img:hover {
+    height: 470px;
+    width: 720px;
+    transition: 0.7s ease;
+
+}
+
+.picture img {
+    height: 450px;
+    width: 700px;
+    object-fit: cover;
+}
+
+.picture img:hover {
+    height: 470px;
+    width: 720px;
+    transition: 0.7s ease;
+
+}
+#heart:hover{
+    color: red;
+
+}
