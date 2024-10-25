@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="overviewstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <ul class="nav">
+        <div class="logo">TRENDIFY</div>
+        <li><a href="trendify.html">HOME</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="">FEATURES</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <div class="iconbox">
+            <i class="fa fa-search" id="icon"></i>
+            <i class=" fa fa-shopping-cart"></i>
+            <i class=" fa fa-heart" id="heart"></i>
+            <i class="fa fa-user"></i>
+            <p style="margin-left: -30px;"> ROHIT </p>
+
+        </div>
+
+    </ul>
+
+    <div class="godfather">
+        <div class="first">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/main pro.jpg" class="main_pro" />
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro1.jpg" class="pro1" />
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro2.jpg" class="pro2"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro3.jpg"  class="pro3"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro4.jpg" class="pro4" />
+      </div>
+    </div>
+
+    <div class="swiper-button-next" style="color: #000;"></div>
+    <div class="swiper-button-prev"style="color: #000;"></div>
+  </div>
+  <div thumbsSlider="" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/main pro.jpg"  class="main_pro" />
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro1.jpg" class="pro1" />
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro2.jpg"  class="pro2"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro3.jpg"  class="pro3"/>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/pro4.jpg"  class="pro4"/>
+      </div>
+      
+  </div>
+  </div>
+
+  
+     
+        </div>
+
+        <div class="second">
+            <h1 id="brand-display">VINTAGE CRUSIER</h1><br>
+            <h3 style="color:grey" id="name-display">Vintage Cruiser Stylish men's black leather Jacket</h3>
+            <br>
+            <h2 class="price">$ 32.87 </h2>
+            <h4 style="color: rgb(29, 211, 29);">Inclusive of all taxes</h4><br>
+            <button class="add"><a href="">Add to Cart</a></button> <button class="buy"><a href="">Buy Now</a></button><br><br>
+            <hr style="width: 590px ">
+
+            
+
+            <div class="son">
+            <h2 style="text-align: center;">PRODUCT DETAILS</h2><br>
+            <h3>PRODUCT DESCRIPTION</h3>
+            <P class="men">Black solid leather jacket with zip detail, has a mock collar, 2 pockets ,has a zip closure,<br> long sleeves, straight hemline, polyester lining.
+            </P>
+           <h3 style="text-transform: uppercase;">Size & Fit</h3>
+           <p class="wear">The model (height 6'1) is wearing a size L</p>
+           <h3 style="text-transform: uppercase;">Material & Care</h3>
+           <p class="cloth">
+            leather<br>
+            Dry Clean only</p>
+
+
+        </div>
+
+        </div>
+    </div>
+  <!-- Swiper JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+
+
+  <!-- Initialize Swiper -->
+  
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+ 
+
+        $(document).ready(function () {
+
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > 10) {
+                    $('.nav').css('background', 'white');
+                }
+                else {
+                    $('.nav').css('background', 'none');
+                }
+            })
+
+            $('.text').animate({
+                right: '550px',
+
+            }, 4000)
+
+
+            function getData(data) {
+                const urldata = new URLSearchParams(window.location.search);
+                return urldata.get(data);
+            }
+            const brand = getData('brand');
+            const name = getData('name');
+            const pro = getData('main_pro');
+            const pro1 = getData('pro1');
+            const pro2 = getData('pro2');
+            const pro3 = getData('pro3');
+            const pro4 = getData('pro4');
+            console.log(pro3)
+            const price = getData('price');
+
+          
+
+            $('#brand-display').html(brand);
+            $('#name-display').html(name);
+            $('img').attr('src', `${img}`);
+            $('.main_pro').attr('src', `${pro}`);
+            $('.pro1').attr('src', `${pro1}`);
+            $('.pro2').attr('src', `${pro2}`);
+            $('.pro3').attr('src', `${pro3}`);
+            $('.price').html(price);
+
+
+        })
+
+    </script>
+
+
+    
+</body>
+</html>

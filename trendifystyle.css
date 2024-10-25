@@ -267,11 +267,6 @@ li:hover {
     color: white;
     border: none;
 }
-
-/* .shop{
-    padding-top: 150px;
-    text-decoration: 2px underline;
-} */
 footer {
     height: 280px;
     width: 100%;
@@ -294,7 +289,6 @@ footer {
 
 .item {
     margin-bottom: 20px;
-    /* font-weight: bold; */
     font-family: sans-serif;
 
 }
@@ -302,13 +296,12 @@ footer {
 .coteg {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 15px;
 
 }
 
 .item1 {
     margin-bottom: 20px;
-    /* font-weight: bold; */
     font-family: sans-serif;
 }
 
@@ -316,12 +309,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
 
 .item2 {
     margin-bottom: 20px;
-    /* font-weight: bold; */
     font-family: sans-serif;
 }
 
@@ -334,16 +325,51 @@ footer {
 
 .item3 {
     margin-bottom: 20px;
-    /* font-weight: bold; */
     font-family: sans-serif;
 }
+
 .news {
     display: flex;
     flex-direction: column;
     gap: 15px;
 
 }
+
+  
+
+
+/* .shop{
+    padding-top: 150px;
+    text-decoration: 2px underline;
+} */
 #heart:hover{
     color: red;
-
 }
+.btn{
+    background-color: skyblue;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    border: none;
+    
+    
+}
+.social-icons {  
+    margin-top: 20px;  
+    font-size: 30px;
+  }  
+
+
+/* 
+#cart{ 
+    color: rgb(8, 101, 250);
+}
+#heart{ 
+    color: rgb(8, 101, 250);
+}
+#icon{
+    color: rgb(8, 101, 250);
+}
+#user{
+    color: rgb(8, 101, 250);
+} */

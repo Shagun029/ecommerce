@@ -76,6 +76,11 @@ li:hover{
 .portfolio-item .contain{
     margin: 25px;
 }
+.social-icons {  
+    margin-top: 20px;  
+    font-size: 30px;
+  }  
+
 
 /* .women{
     height: 400px;

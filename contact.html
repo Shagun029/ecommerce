@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
     <link rel="stylesheet" href="contactstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -16,7 +20,7 @@
         <div class="logo">TRENDIFY</div>
         <li><a href="trendify.html">HOME</a></li>
         <li><a href="shop.html">SHOP</a></li>
-        <li><a href="">FEATURES</a></li>
+        <li><a href="features.html">FEATURES</a></li>
         <li><a href="blog.html">BLOG</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
@@ -38,8 +42,11 @@
         <div class="git">
         <h1 style="font-family: Arial, Helvetica, sans-serif; margin-left: 120px;"> Send Us A Message</h1>
         <p>Your Email Address</p>
+        <input type="text" placeholder="Enter Your E-mail Here" style="padding: 15px ;" class="box">
+
 
         <p>How Can We Help?</p>
+        <textarea placeholder="TYPE YOUR QUERY HERE...." style="padding: 25px;" class="area"></textarea>
         <button class="btn"><b>SUBMIT</b></button>
 
     </div>
@@ -60,6 +67,112 @@
     </div>
 </div><br><br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14024.355821795012!2d77.32095495000002!3d28.506971249999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1727005836675!5m2!1sen!2sin" width="100%" height="400" style="border:0; margin-top: 150px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+<footer>
+    <div class="coteg">
+        <div class="item">
+            <h4>CATEGORIES</h4>
+        </div>
+        <p><a href="trendify.html" class="white">WOMEN</a></p>
+        <p><a href="trendify.html" class="white">MEN</a></p>
+        <p><a href="trendify.html" class="white">SHOES</a></p>
+        <p><a href="trendify.html" class="white">BAGS</a></p>
+    </div>
+
+    <div class="help">
+        <div class="item1">
+            <h4>HELP</h4>
+        </div>
+        <p><a href="trendify.html" class="white">Track Order</a></p>
+        <p><a href="trendify.html" class="white">Returns</a></p>
+        <p><a href="trendify.html" class="white">Shipping</a></p>
+        <p><a href="trendify.html" class="white">FAQs</a></p>
+    </div>
+
+    <div class="touch">
+        <div class="item2">
+            <h4>GET IN TOUCH</h4>
+        </div>
+        <p>Any questions? Let us know in store at 8th<br>floor,379 Hudson st,Newyork,NY 10018 or <br> call us
+            on(+1)96 716 6879</p>
+            <div class="social-icons">  
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram-alt' ></i>
+            <i class='bx bxl-pinterest' ></i>
+               </div>
+
+    </div>
+
+    <div class="news">
+        <div class="item3">
+            <h4>NEWS LETTER</h4>
+        </div>
+        <p>trendify@gmail.com</p>
+        <button
+            style="background-color: rgb(8, 101, 250); padding: 1rem 3rem; color: white; border-radius: 20px; border: none;"><a
+                href="trendify.html" class="white">SUBSCRIBE</a></button>
+
+    </div>
+    <script>
+
+        $(document).ready(function () {
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > 180) {
+                    $('.nav').css('background', 'white');
+                }
+                else {
+                    $('.nav').css('background', 'none');
+                }
+            })
+
+            $('.text').animate({
+                right: '550px',
+
+            }, 4000)
+
+            $('.btn').click(function(){
+                if('.box'=="" && '.area'==""){
+                    swal({
+                    title:"Invalid form",
+                    icon:"warning",
+                    timer:2000,
+                
+
+                })
+            }
+
+                
+                else{ 
+                    swal({
+                    title:"submission successfull",
+                    icon:"success",
+                    timer:5000,
+
+                })
+
+            }
+
+            })
+
+            // function getData(data) {
+            //     const urldata = new URLSearchParams(window.location.search);
+            //     return urldata.get(data);
+            // }
+            // const name = getData('name');
+            // const img = getData('img');
+            // const price =getData('price');
+            // const brand=getData('brand')
+
+            // $('#name-display').html(name);
+            // //  $('img').attr('src', `${img}`);
+            //  $('.brand-display').html(brand);
+            //  $('.price').html(price);
+
+
+        })
+
+    </script>
+
+
 
     
 
