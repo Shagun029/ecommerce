@@ -11,6 +11,7 @@
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
 
 
@@ -19,10 +20,10 @@
 <body>
 
     <ul class="nav">
-        <div class="logo">TRENDIFY</div>
+        <div class="logo"><img src="images/trend.webp" alt="not shown" height="180px " width="200px"></div>
         <li><a href="trendify.html">HOME</a></li>
         <li><a href="shop.html">SHOP</a></li>
-        <li><a href="">FEATURES</a></li>
+        <li><a href="features.html">FEATURES</a></li>
         <li><a href="blog.html">BLOG</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
@@ -85,8 +86,8 @@
             <h2 class="price">$ 23.87 </h2>
             <h4 style="color: rgb(29, 211, 29);">Inclusive of all taxes</h4><br>
             <!-- <button class="add"><a href="">Add to Cart</a></button>  -->
-            <button class="buy"><a href="">Buy
-                    Now </a><i class=" fa fa-shopping-cart" style="padding-left: 25px;"></i></button><br><br>
+            <button class="buy" id="rzp-button1">Buy Now
+                    <i class=" fa fa-shopping-cart" style="padding-left: 25px;"></i></button><br><br>
             <hr style="width: 590px ">
 
 
@@ -190,6 +191,41 @@
             // $('.men').html(men);
             // $('.wear').html(wear);
             // $('.cloth').html(cloth);
+
+            // let prc = document.getElementById('xyz').value;
+            var options = {
+                "key": "rzp_test_kBREEooxYkKLPo", // Enter the Key ID generated from the Dashboard
+                "amount": "90000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+                "currency": "INR",
+                "name": "Acme Corp", //your business name
+                "description": "Test Transaction",
+                "image": "https://example.com/your_logo",
+                "handle": function (response) {
+                    alert('Payment Successfull');
+                },
+                "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
+                    "name": "Gaurav Kumar", //your customer's name
+                    "email": "gaurav.kumar@example.com",
+                    "contact": "9000090000" //Provide the customer's phone number for better conversion rates 
+                },
+                "notes": {
+                    "address": "Razorpay Corporate Office"
+                },
+                "theme": {
+                    "color": "#3399cc"
+                }
+            };
+            var rzp1 = new Razorpay(options);
+            document.getElementById('rzp-button1').onclick = function (e) {
+                rzp1.open();
+                e.preventDefault();
+            }
+
+
+
+
+
+
 
 
         })

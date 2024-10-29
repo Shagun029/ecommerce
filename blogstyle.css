@@ -40,11 +40,11 @@ li:hover {
 }
 
 .logo {
-    color: rgb(112, 2, 21);
-    font-size: 35px;
+  
     padding-left: 100px;
     padding-right: 80px;
-    font-weight: bold;
+    padding-top: 10px;
+    
 }
 
 .abo {

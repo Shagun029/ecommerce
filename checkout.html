@@ -21,7 +21,7 @@
 <body>
   <!-- header -->
   <ul class="nav">
-    <div class="logo">TRENDIFY</div>
+    <div class="logo"><img src="images/trend.webp" alt="not shown" height="180px " width="200px"></div>
     <li><a href="trendify.html">HOME</a></li>
     <li><a href="shop.html">SHOP</a></li>
     <li><a href="features.html">FEATURES</a></li>
@@ -42,28 +42,26 @@
     <div class="container">
         <div class="grid sm:px-10 lg:grid-cols-2 lg:px-20 xl:px-32">
             <div class="px-4 pt-8">
-                <p class="text-xl font-medium">Order Summary</p>
-                <p class="text-gray-400">Check your items. And select a suitable shipping method.</p>
+                <p class="text-xxl font-bold">Order Summary</p>
+                <p style="color: green;">Select your product along with the suitable shipping method  </p>
                 <div class="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-6">
                     <div class="flex flex-col rounded-lg bg-white sm:flex-row">
-                        <img class="m-2 h-24 w-28 rounded-md border object-cover object-center" src="https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?auto=format&fit=crop&w=500&q=60" alt="" />
+                        <img class="m-2 h-24 w-28 object-cover rounded-md border  object-center" src="images/main demo.jpg" alt="" />
                         <div class="flex w-full flex-col px-4 py-4">
-                            <span class="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
-                            <span class="float-right text-gray-400">42EU - 8.5US</span>
-                            <p class="text-lg font-bold">$138.99</p>
+                            <span class="font-semibold">The Life Co. Trucker denim blend comfy Jacket</span>
+                             <p class="text-lg font-bold">$23.87</p>
                         </div>
                     </div>
                     <div class="flex flex-col rounded-lg bg-white sm:flex-row">
-                        <img class="m-2 h-24 w-28 rounded-md border object-cover object-center" src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=500&q=60" alt="" />
+                        <img class="m-2 h-24 w-28  object-cover rounded-md border object-center" src="images/pro1.jpg" />
                         <div class="flex w-full flex-col px-4 py-4">
-                            <span class="font-semibold">Nike Air Max Pro 8888 - Super Light</span>
-                            <span class="float-right text-gray-400">42EU - 8.5US</span>
-                            <p class="mt-auto text-lg font-bold">$238.99</p>
+                            <span class="">black leather jacket for men </span>
+                            <p class="mt-auto text-lg font-bold">$34.20</p>
                         </div>
                     </div>
                 </div>
     
-                <p class="mt-8 text-lg font-medium">Shipping Methods</p>
+                <p class="mt-8 text-xxl font-bold">Shipping Methods</p>
                 <form class="mt-5 grid gap-6">
                     <div class="relative">
                         <input class="peer hidden" id="radio_1" type="radio" name="radio" checked />
@@ -71,8 +69,8 @@
                         <label class="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4" for="radio_1">
                             <i class='bx bx-truck w-14'></i>
                             <div class="ml-5">
-                                <span class="mt-2 font-semibold">FedEx Delivery</span>
-                                <p class="text-slate-500 text-sm leading-6">Delivery: 2-4 Days</p>
+                                <span class="mt-2 font-semibold">Shadow-fax Delivery</span>
+                                <p class="text-slate-500 text-sm leading-6">Delivery: within 3-5 Days</p>
                             </div>
                         </label>
                     </div>
@@ -82,8 +80,8 @@
                         <label class="peer-checked:border-2 peer-checked:border-gray-700 peer-checked:bg-gray-50 flex cursor-pointer select-none rounded-lg border border-gray-300 p-4" for="radio_2">
                             <i class='bx bx-plane w-14'></i>
                             <div class="ml-5">
-                                <span class="mt-2 font-semibold">Air Delivery</span>
-                                <p class="text-slate-500 text-sm leading-6">Delivery: 1-3 Days</p>
+                                <span class="mt-2 font-semibold">E-cart Delivery</span>
+                                <p class="text-slate-500 text-sm leading-6">Delivery: within a Day</p>
                             </div>
                         </label>
                     </div>
@@ -91,20 +89,20 @@
             </div>
             <div class="mt-10 bg-gray-50 px-4 pt-8 lg:mt-0">
                 <p class="text-xl font-medium">Payment Details</p>
-                <p class="text-gray-400">Complete your order by providing your payment details.</p>
+                <p class="text-gray-400" style="color: red;">Confirm your order by providing your payment details.</p>
                 <div class="">
-                    <label for="email" class="mt-4 mb-2 block text-sm font-medium">Email</label>
+                    <label for="email" class="mt-4 mb-2 block text-sm font-medium">E-mail</label>
                     <div class="relative">
                         <input type="text" id="email" name="email" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="your.email@gmail.com" />
                         <div class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
-                            <i class='bx bx-envelope text-gray-400'></i>
+                            <i class='bx bx-envelope' style="color: green;"></i>
                         </div>
                     </div>
                     <label for="card-holder" class="mt-4 mb-2 block text-sm font-medium">Card Holder</label>
                     <div class="relative">
                         <input type="text" id="card-holder" name="card-holder" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm uppercase shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Your full name here" />
                         <div class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
-                            <i class='bx bx-user text-gray-400'></i>
+                            <i class='bx bx-user text-gray-400' style="color:green;"></i>
                         </div>
                     </div>
                     <label for="card-no" class="mt-4 mb-2 block text-sm font-medium">Card Details</label>
@@ -112,7 +110,7 @@
                         <div class="relative w-7/12 flex-shrink-0">
                             <input type="text" id="card-no" name="card-no" class="w-full rounded-md border border-gray-200 px-2 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="xxxx-xxxx-xxxx-xxxx" />
                             <div class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
-                                <i class='bx bx-credit-card text-gray-400'></i>
+                                <i class='bx bx-credit-card text-gray-400' style="color: green;"></i>
                             </div>
                         </div>
                         <input type="text" name="credit-expiry" class="w-full rounded-md border border-gray-200 px-2 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="MM/YY" />
@@ -121,9 +119,9 @@
                     <label for="billing-address" class="mt-4 mb-2 block text-sm font-medium">Billing Address</label>
                     <div class="flex flex-col sm:flex-row">
                         <div class="relative flex-shrink-0 sm:w-7/12">
-                            <input type="text" id="billing-address" name="billing-address" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Street Address" />
+                            <input type="text" id="billing-address" name="billing-address" class="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder=" Type your street , locality , or zone here" />
                             <div class="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
-                                <i class='bx bx-home text-gray-400'></i>
+                                <i class='bx bx-home text-gray-400' style="color: green;"></i>
                             </div>
                         </div>
                         <select name="billing-state" class="w-full rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500">
@@ -132,23 +130,23 @@
                         <input type="text" name="billing-zip" class="flex-shrink-0 rounded-md border border-gray-200 px-4 py-3 text-sm shadow-sm outline-none sm:w-1/6 focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="ZIP" />
                     </div>
     
-                    <!-- Total -->
+                    
                     <div class="mt-6 border-t border-b py-2">
                         <div class="flex items-center justify-between">
-                            <p class="text-sm font-medium text-gray-900">Subtotal</p>
-                            <p class="font-semibold text-gray-900">$399.00</p>
+                            <p class="text-sm font-medium text-gray-950">Subtotal :- </p>
+                            <p class="font-semibold text-gray-900">$31.22</p>
                         </div>
                         <div class="flex items-center justify-between">
-                            <p class="text-sm font-medium text-gray-900">Shipping</p>
-                            <p class="font-semibold text-gray-900">$8.00</p>
+                            <p class="text-sm font-medium text-gray-950">Shipping charge :- </p>
+                            <p class="font-semibold text-gray-900">$9.44</p>
                         </div>
                     </div>
                     <div class="mt-6 flex items-center justify-between">
-                        <p class="text-sm font-medium text-gray-900">Total</p>
-                        <p class="text-2xl font-semibold text-gray-900">$408.00</p>
+                        <p class="text-sm font-medium text-gray-950">Total :- </p>
+                        <p class="text-2xl font-semibold text-gray-900">$23.40</p>
                     </div>
                 </div>
-                <button class="mt-4 mb-8 w-full rounded-md bg-grey-900 px-6 py-3 font-medium text-white" id="oer">Place Order</button>
+                <button class="mt-4 mb-8 w-full rounded-md bg-grey-900 px-6 py-3 font-medium text-white" id="oer" style=" background-color: rgb(19, 182, 19);">Confirm your Order</button>
             </div>
         </div>
     </div>

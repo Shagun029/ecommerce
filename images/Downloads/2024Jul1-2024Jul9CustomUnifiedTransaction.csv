@@ -1,0 +1,184 @@
+﻿"Includes Amazon Marketplace, Fulfillment by Amazon (FBA), and Amazon Webstore transactions"
+"All amounts in INR, unless specified"
+"Definitions:"
+"Total sales tax liable:Includes GST or sales tax collected from buyers for product sales, shipping, and gift wrap."
+"TCS-CGST:Tax Collected at Source from Central GST"
+"TCS-SGST:Tax Collected at Source from State GST"
+"TCS-IGST:Tax Collected at Source from Integrated GST"
+"TDS (Section 194-O): Tax Deducted at Source under Section 194-O of Income tax Act, 1961"
+"Selling fees: Includes variable closing fees and referral fees."
+"Other transaction fees: Includes shipping chargebacks, shipping holdbacks, and sales tax collection fees.
+"
+"Other: Includes non-order transaction amounts. For more details, see the ""Type"" and ""Description"" columns for each order ID."
+"date/time","settlement id
+","type
+","order id","Sku","description
+","quantity","marketplace
+","account type","fulfillment","order city
+","order state
+","order postal
+","product sales
+","shipping credits
+","promotional rebates
+","Total sales tax liable(GST before adjusting TCS)","TCS-CGST","TCS-SGST","TCS-IGST","TDS (Section 194-O)","selling fees
+","fba fees
+","other transaction fees
+","other
+","total
+"
+"1 Jul 2024 4:47:27 am UTC","22390808312","Cancellation","407-0703484-3462764","","Order Cancellation Charge","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-14.75","0","-14.75"
+"1 Jul 2024 9:48:36 am UTC","22390808312","Shipping Services
+","408-6979356-0775563","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"1 Jul 2024 9:48:41 am UTC","22390808312","Shipping Services
+","407-2840105-6478756","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"1 Jul 2024 9:48:42 am UTC","22390747912","Shipping Services
+","406-3753585-6778704","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-55.46","0","-55.46"
+"1 Jul 2024 9:48:48 am UTC","22390808312","Shipping Services
+","171-7283978-8730713","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"1 Jul 2024 9:49:00 am UTC","22390747912","Shipping Services
+","408-7872470-7555515","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-95.58","0","-95.58"
+"1 Jul 2024 9:49:21 am UTC","22390808312","Shipping Services
+","407-6427995-8532314","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"1 Jul 2024 9:52:42 am UTC","22390808312","Shipping Services
+","402-2719250-0297114","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-55.46","0","-55.46"
+"1 Jul 2024 11:57:17 am UTC","22390808312","Order
+","171-7283978-8730713","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","GANDERBAL DISTRICT","JAMMU & KASHMIR","191131","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"1 Jul 2024 11:58:45 am UTC","22390808312","Order
+","407-2840105-6478756","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","AIZAWL","MIZORAM","796001","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"1 Jul 2024 12:00:07 pm UTC","22390808312","Order
+","408-7872470-7555515","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","3","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","GURUGRAM","HARYANA","122002","0","0","0","0","0","0","0","0","0","0","0","0","0"
+"1 Jul 2024 12:00:11 pm UTC","22390808312","Order
+","408-6979356-0775563","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","Panoor","KERALA","670692","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"1 Jul 2024 12:00:44 pm UTC","22390808312","Order
+","402-2719250-0297114","Brush_555","Oil Brush for Cooking | Silicone Brush for Oiling | Baking Essentials | Easy to Use,Use for Baking, Grilling, Spreader, Tandoor & BBQ | Durable, Multi","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","GURUGRAM","HARYANA","122006","210.00","0","0","0","0","0","0","0","-12.39","0","-4.72","0","192.89"
+"1 Jul 2024 12:02:57 pm UTC","22390747912","Order
+","406-3753585-6778704","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GURUGRAM","HARYANA","122022","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"1 Jul 2024 12:03:24 pm UTC","22390808312","Order
+","407-6427995-8532314","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","TONK","RAJASTHAN","304001","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"2 Jul 2024 1:03:28 am UTC","22390808312","Shipping Services
+","402-7657708-5313964","","Amazon Easy Ship Weight Handling Fee Reversal","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","55.46","0","55.46"
+"2 Jul 2024 1:19:29 am UTC","22390808312","Refund
+","402-7657708-5313964","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","NEW DELHI","DELHI","110084","-299.00","0","0","0","0","0","0","0","17.64","0","10.62","0","-270.74"
+"2 Jul 2024 9:13:42 am UTC","22390808312","Shipping Services
+","405-6692783-1266767","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"2 Jul 2024 9:13:45 am UTC","22390747912","Shipping Services
+","406-0768988-3157903","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-55.46","0","-55.46"
+"2 Jul 2024 9:14:14 am UTC","22390747912","Shipping Services
+","408-7552838-4464325","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-55.46","0","-55.46"
+"2 Jul 2024 9:14:31 am UTC","22390747912","Shipping Services
+","171-4201992-3429928","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"2 Jul 2024 9:29:30 am UTC","22390747912","Order
+","406-0768988-3157903","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110057","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"2 Jul 2024 9:29:37 am UTC","22390747912","Order
+","171-4201992-3429928","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","North Barrackpur","WEST BENGAL","743144","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"2 Jul 2024 9:29:38 am UTC","22390808312","Order
+","405-6692783-1266767","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","DHARMSALA","HIMACHAL PRADESH","176215","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"2 Jul 2024 9:29:59 am UTC","22390747912","Order
+","408-7552838-4464325","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110074","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"3 Jul 2024 11:26:06 am UTC","22572908662","Shipping Services
+","402-3671104-5905969","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-70.80","0","-70.80"
+"3 Jul 2024 11:26:17 am UTC","22572820122","Shipping Services
+","171-1269786-0030736","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"3 Jul 2024 11:26:32 am UTC","22572908662","Shipping Services
+","404-1845776-9225105","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-55.46","0","-55.46"
+"3 Jul 2024 11:26:33 am UTC","22572820122","Shipping Services
+","408-6257285-1941908","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"3 Jul 2024 11:26:33 am UTC","22572820122","Shipping Services
+","171-8739906-5448323","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"3 Jul 2024 11:41:33 am UTC","22572820122","Order
+","171-8739906-5448323","white_111","Perfect Mini Water Bottle/flask |Portable Travel Companion Water Bottle |Glass inner liner with Plastic Shell Bottles For School, Gym, Home, Office,Bo","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","RAIPUR","CHHATTISGARH","492001","211.00","0","0","0","0","0","0","0","-12.45","0","-4.72","0","193.83"
+"3 Jul 2024 11:41:46 am UTC","22572820122","Order
+","171-1269786-0030736","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","ALWAR","RAJASTHAN","301001","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"3 Jul 2024 11:41:54 am UTC","22572908662","Order
+","404-1845776-9225105","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GURUGRAM","HARYANA","122018","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"3 Jul 2024 11:42:05 am UTC","22572820122","Order
+","408-6257285-1941908","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400067","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"3 Jul 2024 11:42:17 am UTC","22572908662","Order
+","402-3671104-5905969","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NOIDA","UTTAR PRADESH","201304","598.00","0","0","0","0","0","0","0","-35.28","0","-21.24","0","541.48"
+"3 Jul 2024 11:01:18 pm UTC","22572820122","Shipping Services
+","408-1171460-0968322","","Amazon Easy Ship Weight Handling Fee Reversal","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","90.86","0","90.86"
+"3 Jul 2024 11:16:03 pm UTC","22572820122","Refund
+","408-1171460-0968322","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400067","-299.00","0","0","0","0","0","0","0","17.64","0","10.62","0","-270.74"
+"4 Jul 2024 9:51:40 am UTC","22572820122","Shipping Services
+","402-0367065-4190718","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"4 Jul 2024 10:06:53 am UTC","22572820122","Order
+","402-0367065-4190718","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","Haldwani","UTTARAKHAND","263139","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"5 Jul 2024 8:24:45 am UTC","22572820122","SAFE-T Reimbursement","171-2132639-1334758","101_bottle_20L","SAFE-T Claim ID: 19715-70974-9079340","3","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","716.64","716.64"
+"5 Jul 2024 9:24:02 am UTC","22572820122","Shipping Services
+","403-2980888-4395528","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"5 Jul 2024 9:24:28 am UTC","22572908662","Shipping Services
+","402-9370256-6797922","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"5 Jul 2024 9:39:48 am UTC","22572820122","Order
+","403-2980888-4395528","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","BALLARI","KARNATAKA","583101","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"5 Jul 2024 9:39:52 am UTC","22572908662","Order
+","402-9370256-6797922","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BHAGWANPUR","UTTARAKHAND","247661","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"6 Jul 2024 4:54:45 am UTC","22572820122","Shipping Services
+","407-6427995-8532314","","Amazon Easy Ship Weight Handling Fee Reversal","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","66.08","0","66.08"
+"6 Jul 2024 5:10:06 am UTC","22572820122","Refund
+","407-6427995-8532314","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","TONK","RAJASTHAN","304001","-299.00","0","0","0","0","0","0","0","17.64","0","10.62","0","-270.74"
+"6 Jul 2024 10:07:46 am UTC","22572908662","Shipping Services
+","403-5413550-9618764","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-70.80","0","-70.80"
+"6 Jul 2024 10:08:28 am UTC","22572908662","Shipping Services
+","405-7364635-5553966","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"6 Jul 2024 10:08:31 am UTC","22572820122","Shipping Services
+","408-4079850-5981145","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"6 Jul 2024 10:08:35 am UTC","22572820122","Shipping Services
+","405-4154062-1823537","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"6 Jul 2024 10:23:08 am UTC","22572820122","Order
+","408-4079850-5981145","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","JODHPUR","RAJASTHAN","342008","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"6 Jul 2024 10:23:24 am UTC","22572908662","Order
+","405-7364635-5553966","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","RANIKHET","UTTARAKHAND","263645","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"6 Jul 2024 10:23:43 am UTC","22572820122","Order
+","405-4154062-1823537","white_111","Perfect Mini Water Bottle/flask |Portable Travel Companion Water Bottle |Glass inner liner with Plastic Shell Bottles For School, Gym, Home, Office,Bo","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","NAWANSHAHR","PUNJAB","144516","211.00","0","0","0","0","0","0","0","-12.45","0","-4.72","0","193.83"
+"6 Jul 2024 10:23:46 am UTC","22572908662","Order
+","403-5413550-9618764","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110070","598.00","0","0","0","0","0","0","0","-35.28","0","-21.24","0","541.48"
+"9 Jul 2024 3:16:27 am UTC","22572820122","Shipping Services
+","171-7283978-8730713","","Amazon Easy Ship Weight Handling Fee Reversal","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","66.08","0","66.08"
+"9 Jul 2024 3:19:42 am UTC","22572820122","Shipping Services
+","408-6257285-1941908","","Amazon Easy Ship Weight Handling Fee Reversal","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","90.86","0","90.86"
+"9 Jul 2024 3:32:34 am UTC","22572820122","Refund
+","171-7283978-8730713","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","GANDERBAL DISTRICT","JAMMU & KASHMIR","191131","-299.00","0","0","0","0","0","0","0","17.64","0","10.62","0","-270.74"
+"9 Jul 2024 3:33:58 am UTC","22572820122","Refund
+","408-6257285-1941908","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400067","-299.00","0","0","0","0","0","0","0","17.64","0","10.62","0","-270.74"
+"9 Jul 2024 11:00:51 am UTC","22615918302","Shipping Services
+","171-7148056-3981958","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-95.58","0","-95.58"
+"9 Jul 2024 11:00:51 am UTC","22615918302","Shipping Services
+","402-9246828-4710701","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"9 Jul 2024 11:00:52 am UTC","22615992802","Shipping Services
+","406-2240203-5193938","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"9 Jul 2024 11:00:58 am UTC","22615992802","Refund
+","404-0694110-6405150","white_111","Perfect Mini Water Bottle/flask |Portable Travel Companion Water Bottle |Glass inner liner with Plastic Shell Bottles For School, Gym, Home, Office,Bo","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","IMPHAL","MANIPUR","795001","-211.00","0","0","0","0","0","0","0","-40.65","0","4.72","0","-246.93"
+"9 Jul 2024 11:01:02 am UTC","22615992802","Shipping Services
+","408-6180425-1390751","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-120.36","0","-120.36"
+"9 Jul 2024 11:01:10 am UTC","22615918302","Shipping Services
+","403-1787333-9749938","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"9 Jul 2024 11:01:17 am UTC","22615918302","Shipping Services
+","171-6182962-1887542","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"9 Jul 2024 11:01:22 am UTC","22615992802","Shipping Services
+","402-1205598-4640326","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-118.00","0","-118.00"
+"9 Jul 2024 11:01:25 am UTC","22615992802","Shipping Services
+","406-0513393-3430702","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-66.08","0","-66.08"
+"9 Jul 2024 11:01:32 am UTC","22615992802","Shipping Services
+","171-4879911-8412333","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-55.46","0","-55.46"
+"9 Jul 2024 11:01:38 am UTC","22615992802","Shipping Services
+","404-6218521-8818730","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-90.86","0","-90.86"
+"9 Jul 2024 11:16:33 am UTC","22615992802","Order
+","406-0513393-3430702","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","Malout","PUNJAB","152114","598.00","0","0","0","0","0","0","0","-35.28","0","-21.24","0","541.48"
+"9 Jul 2024 11:16:35 am UTC","22615918302","Order
+","171-6182962-1887542","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","JODHPUR","RAJASTHAN","342005","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"9 Jul 2024 11:16:38 am UTC","22615918302","Order
+","171-7148056-3981958","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","3","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110078","897.00","0","0","0","0","0","0","0","-52.92","0","-31.86","0","812.22"
+"9 Jul 2024 11:16:47 am UTC","22615992802","Order
+","406-2240203-5193938","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MORADABAD","UTTAR PRADESH","244001","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"9 Jul 2024 11:16:54 am UTC","22615992802","Order
+","408-6180425-1390751","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MANGATTIDAM","KERALA","670643","598.00","0","0","0","0","0","0","0","-35.28","0","-21.24","0","541.48"
+"9 Jul 2024 11:16:57 am UTC","22615992802","Order
+","402-1205598-4640326","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","PALAMPUR","HIMACHAL PRADESH","176061","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"9 Jul 2024 11:17:05 am UTC","22615918302","Order
+","403-1787333-9749938","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Bahraich","UTTAR PRADESH","271801","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"9 Jul 2024 11:17:12 am UTC","22615918302","Order
+","402-9246828-4710701","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Ganaur","HARYANA","131101","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"9 Jul 2024 11:17:18 am UTC","22615992802","Order
+","171-4879911-8412333","101_bottle_20L","Transparent Plastic Water Dispenser Bottle - 20L Blue, 20 Liter| 20L water bottle can blue (pack of 1)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","GURUGRAM","HARYANA","122002","299.00","0","0","0","0","0","0","0","-17.64","0","-10.62","0","270.74"
+"9 Jul 2024 11:17:24 am UTC","22615992802","Order
+","404-6218521-8818730","white_111","Perfect Mini Water Bottle/flask |Portable Travel Companion Water Bottle |Glass inner liner with Plastic Shell Bottles For School, Gym, Home, Office,Bo","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","ahmedabad","GUJARAT","380051","211.00","0","0","0","0","0","0","0","-12.45","0","-4.72","0","193.83"

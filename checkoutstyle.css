@@ -248,11 +248,11 @@ li:hover {
 }
 
 .logo {
-    color: rgb(112, 2, 21);
-    font-size: 35px;
+    
     padding-left: 100px;
     padding-right: 80px;
-    font-weight: bold;
+    padding-top: 10px;
+    
 }
 /* footer_css */
 
@@ -336,17 +336,13 @@ footer {
     padding: 1rem 2rem;
     border-radius: 15px;
     border: none;
-
-
-    
-    
 }
 .social-icons {  
     margin-top: 20px;  
     font-size: 30px;
   }  
 #oer{
-    background: black;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
